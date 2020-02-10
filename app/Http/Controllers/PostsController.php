@@ -7,9 +7,16 @@ use App\Tag;
 
 class PostsController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+//        $this->middleware('can:update, post')->except(['index', 'store', 'create']); #НЕ РАБОТАЕТ
+    }
+
     public function index()
     {
-        $posts = Post::with('tags')->latest()->get();
+//        $posts = Post::where('owner_id', auth()->id())->with('tags')->latest()->get();
+        $posts = auth()->user()->posts()->with('tags')->latest()->get();
         return view('posts.index', compact('posts'));
     }
 
@@ -25,14 +32,14 @@ class PostsController extends Controller
 
     public function store()
     {
-        $this->validate(request(), [
+        $attributes = request()->validate([
             'slug' => 'required',
             'title' => 'required',
             'short_description' => 'required',
-            'body' => 'required',
+            'body' => 'required'
         ]);
-
-        Post::create(request()->all());
+        $attributes['owner_id'] = auth()->id();
+        Post::create($attributes);
 
         flash('Статья успешно добавлена');
 
@@ -42,6 +49,12 @@ class PostsController extends Controller
 
     public function edit(Post $post)
     {
+
+
+//        $this->authorize('update', 'post'); #НЕ РАБОТАЕТ
+//        abort_if($post->owner_id !== auth()->id(), 403); #РАБОТАЕТ, но когда а AuthServiceProvider вводми проверку на админа выдает 403 ошибку
+        abort_if(\Gate::denies('update', $post), 403); #Работает
+
         return view('/posts.edit', compact('post'));
     }
 
@@ -54,6 +67,8 @@ class PostsController extends Controller
             'short_description' => 'required',
             'body' => 'required'
         ]);
+
+//        dd($attributes);
         $post->update($attributes);
         /** @var Collection $taskTags */
         $postTags = $post->tags->keyBy('name');
