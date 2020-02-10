@@ -36,3 +36,7 @@ Route::post('/admin/feedbacks', 'FeedbacksController@store');
 
 Route::get('/admin/feedbacks', 'FeedbacksController@show');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
