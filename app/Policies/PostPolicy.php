@@ -53,7 +53,6 @@ class PostPolicy
      */
     public function update(User $user, Post $post)
     {
-//        dd($user );
         return $post->owner_id == $user->id;
     }
 

@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Notifications\PostDeleted;
+use App\Notifications\PostUpdated;
 use App\Post;
 use App\Tag;
 
@@ -39,7 +41,9 @@ class PostsController extends Controller
             'body' => 'required'
         ]);
         $attributes['owner_id'] = auth()->id();
-        Post::create($attributes);
+        $post = Post::create($attributes);
+
+//        event(new PostCreated($post));
 
         flash('Статья успешно добавлена');
 
@@ -60,7 +64,6 @@ class PostsController extends Controller
 
     public function update(Post $post)
     {
-//        dd($post);
         $attributes = request()->validate([
             'slug' => 'required',
             'title' => 'required',
@@ -68,8 +71,10 @@ class PostsController extends Controller
             'body' => 'required'
         ]);
 
-//        dd($attributes);
         $post->update($attributes);
+
+        $post->owner->notify(new PostUpdated($post));
+
         /** @var Collection $taskTags */
         $postTags = $post->tags->keyBy('name');
 
@@ -91,6 +96,9 @@ class PostsController extends Controller
 
     public function destroy(Post $post)
     {
+
+        $post->owner->notify(new PostDeleted($post));
+
         $post->delete();
 
         flash('Статья удалена', 'danger');
