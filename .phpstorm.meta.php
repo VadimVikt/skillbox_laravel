@@ -5,21 +5,14 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-<<<<<<< HEAD
     * Generated on 2020-04-08 14:33:22.
-=======
-    * Generated on 2020-01-21 17:43:54.
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
     */
     override(new \Illuminate\Contracts\Container\Container, map([
         '' => '@',
-<<<<<<< HEAD
         'Asm89\Stack\CorsService' => \Asm89\Stack\CorsService::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'Facade\IgnitionContracts\SolutionProviderRepository' => \Facade\Ignition\SolutionProviders\SolutionProviderRepository::class,
         'Facade\Ignition\DumpRecorder\DumpRecorder' => \Facade\Ignition\DumpRecorder\DumpRecorder::class,
         'Facade\Ignition\ErrorPage\Renderer' => \Facade\Ignition\ErrorPage\Renderer::class,
@@ -44,10 +37,6 @@ namespace PHPSTORM_META {
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'Illuminate\Routing\Contracts\ControllerDispatcher' => \Illuminate\Routing\ControllerDispatcher::class,
         'Illuminate\Session\Middleware\StartSession' => \Illuminate\Session\Middleware\StartSession::class,
-<<<<<<< HEAD
-=======
-        'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
@@ -63,10 +52,7 @@ namespace PHPSTORM_META {
         'command.cache.table' => \Illuminate\Cache\Console\CacheTableCommand::class,
         'command.channel.make' => \Illuminate\Foundation\Console\ChannelMakeCommand::class,
         'command.clear-compiled' => \Illuminate\Foundation\Console\ClearCompiledCommand::class,
-<<<<<<< HEAD
         'command.component.make' => \Illuminate\Foundation\Console\ComponentMakeCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.config.cache' => \Illuminate\Foundation\Console\ConfigCacheCommand::class,
         'command.config.clear' => \Illuminate\Foundation\Console\ConfigClearCommand::class,
         'command.console.make' => \Illuminate\Foundation\Console\ConsoleMakeCommand::class,
@@ -108,10 +94,6 @@ namespace PHPSTORM_META {
         'command.optimize.clear' => \Illuminate\Foundation\Console\OptimizeClearCommand::class,
         'command.package.discover' => \Illuminate\Foundation\Console\PackageDiscoverCommand::class,
         'command.policy.make' => \Illuminate\Foundation\Console\PolicyMakeCommand::class,
-<<<<<<< HEAD
-=======
-        'command.preset' => \Illuminate\Foundation\Console\PresetCommand::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.provider.make' => \Illuminate\Foundation\Console\ProviderMakeCommand::class,
         'command.queue.failed' => \Illuminate\Queue\Console\ListFailedCommand::class,
         'command.queue.failed-table' => \Illuminate\Queue\Console\FailedTableCommand::class,
@@ -133,10 +115,7 @@ namespace PHPSTORM_META {
         'command.serve' => \Illuminate\Foundation\Console\ServeCommand::class,
         'command.session.table' => \Illuminate\Session\Console\SessionTableCommand::class,
         'command.storage.link' => \Illuminate\Foundation\Console\StorageLinkCommand::class,
-<<<<<<< HEAD
         'command.stub.publish' => \Illuminate\Foundation\Console\StubPublishCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.test.make' => \Illuminate\Foundation\Console\TestMakeCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
         'command.up' => \Illuminate\Foundation\Console\UpCommand::class,
@@ -159,10 +138,7 @@ namespace PHPSTORM_META {
         'hash' => \Illuminate\Hashing\HashManager::class,
         'hash.driver' => \Illuminate\Hashing\BcryptHasher::class,
         'log' => \Illuminate\Log\LogManager::class,
-<<<<<<< HEAD
         'mail.manager' => \Illuminate\Mail\MailManager::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'mailer' => \Illuminate\Mail\Mailer::class,
         'memcached.connector' => \Illuminate\Cache\MemcachedConnector::class,
         'migration.creator' => \Illuminate\Database\Migrations\MigrationCreator::class,
@@ -178,11 +154,6 @@ namespace PHPSTORM_META {
         'router' => \Illuminate\Routing\Router::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
-<<<<<<< HEAD
-=======
-        'swift.mailer' => \Swift_Mailer::class,
-        'swift.transport' => \Illuminate\Mail\TransportManager::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'translation.loader' => \Illuminate\Translation\FileLoader::class,
         'translator' => \Illuminate\Translation\Translator::class,
         'url' => \Illuminate\Routing\UrlGenerator::class,
@@ -193,10 +164,7 @@ namespace PHPSTORM_META {
     ]));
     override(\Illuminate\Container\Container::makeWith(0), map([
         '' => '@',
-<<<<<<< HEAD
         'Asm89\Stack\CorsService' => \Asm89\Stack\CorsService::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'Facade\IgnitionContracts\SolutionProviderRepository' => \Facade\Ignition\SolutionProviders\SolutionProviderRepository::class,
         'Facade\Ignition\DumpRecorder\DumpRecorder' => \Facade\Ignition\DumpRecorder\DumpRecorder::class,
         'Facade\Ignition\ErrorPage\Renderer' => \Facade\Ignition\ErrorPage\Renderer::class,
@@ -221,10 +189,6 @@ namespace PHPSTORM_META {
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'Illuminate\Routing\Contracts\ControllerDispatcher' => \Illuminate\Routing\ControllerDispatcher::class,
         'Illuminate\Session\Middleware\StartSession' => \Illuminate\Session\Middleware\StartSession::class,
-<<<<<<< HEAD
-=======
-        'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
@@ -240,10 +204,7 @@ namespace PHPSTORM_META {
         'command.cache.table' => \Illuminate\Cache\Console\CacheTableCommand::class,
         'command.channel.make' => \Illuminate\Foundation\Console\ChannelMakeCommand::class,
         'command.clear-compiled' => \Illuminate\Foundation\Console\ClearCompiledCommand::class,
-<<<<<<< HEAD
         'command.component.make' => \Illuminate\Foundation\Console\ComponentMakeCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.config.cache' => \Illuminate\Foundation\Console\ConfigCacheCommand::class,
         'command.config.clear' => \Illuminate\Foundation\Console\ConfigClearCommand::class,
         'command.console.make' => \Illuminate\Foundation\Console\ConsoleMakeCommand::class,
@@ -285,10 +246,6 @@ namespace PHPSTORM_META {
         'command.optimize.clear' => \Illuminate\Foundation\Console\OptimizeClearCommand::class,
         'command.package.discover' => \Illuminate\Foundation\Console\PackageDiscoverCommand::class,
         'command.policy.make' => \Illuminate\Foundation\Console\PolicyMakeCommand::class,
-<<<<<<< HEAD
-=======
-        'command.preset' => \Illuminate\Foundation\Console\PresetCommand::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.provider.make' => \Illuminate\Foundation\Console\ProviderMakeCommand::class,
         'command.queue.failed' => \Illuminate\Queue\Console\ListFailedCommand::class,
         'command.queue.failed-table' => \Illuminate\Queue\Console\FailedTableCommand::class,
@@ -310,10 +267,7 @@ namespace PHPSTORM_META {
         'command.serve' => \Illuminate\Foundation\Console\ServeCommand::class,
         'command.session.table' => \Illuminate\Session\Console\SessionTableCommand::class,
         'command.storage.link' => \Illuminate\Foundation\Console\StorageLinkCommand::class,
-<<<<<<< HEAD
         'command.stub.publish' => \Illuminate\Foundation\Console\StubPublishCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.test.make' => \Illuminate\Foundation\Console\TestMakeCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
         'command.up' => \Illuminate\Foundation\Console\UpCommand::class,
@@ -336,10 +290,7 @@ namespace PHPSTORM_META {
         'hash' => \Illuminate\Hashing\HashManager::class,
         'hash.driver' => \Illuminate\Hashing\BcryptHasher::class,
         'log' => \Illuminate\Log\LogManager::class,
-<<<<<<< HEAD
         'mail.manager' => \Illuminate\Mail\MailManager::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'mailer' => \Illuminate\Mail\Mailer::class,
         'memcached.connector' => \Illuminate\Cache\MemcachedConnector::class,
         'migration.creator' => \Illuminate\Database\Migrations\MigrationCreator::class,
@@ -355,11 +306,6 @@ namespace PHPSTORM_META {
         'router' => \Illuminate\Routing\Router::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
-<<<<<<< HEAD
-=======
-        'swift.mailer' => \Swift_Mailer::class,
-        'swift.transport' => \Illuminate\Mail\TransportManager::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'translation.loader' => \Illuminate\Translation\FileLoader::class,
         'translator' => \Illuminate\Translation\Translator::class,
         'url' => \Illuminate\Routing\UrlGenerator::class,
@@ -370,10 +316,7 @@ namespace PHPSTORM_META {
     ]));
     override(\Illuminate\Contracts\Container\Container::make(0), map([
         '' => '@',
-<<<<<<< HEAD
         'Asm89\Stack\CorsService' => \Asm89\Stack\CorsService::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'Facade\IgnitionContracts\SolutionProviderRepository' => \Facade\Ignition\SolutionProviders\SolutionProviderRepository::class,
         'Facade\Ignition\DumpRecorder\DumpRecorder' => \Facade\Ignition\DumpRecorder\DumpRecorder::class,
         'Facade\Ignition\ErrorPage\Renderer' => \Facade\Ignition\ErrorPage\Renderer::class,
@@ -398,10 +341,6 @@ namespace PHPSTORM_META {
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'Illuminate\Routing\Contracts\ControllerDispatcher' => \Illuminate\Routing\ControllerDispatcher::class,
         'Illuminate\Session\Middleware\StartSession' => \Illuminate\Session\Middleware\StartSession::class,
-<<<<<<< HEAD
-=======
-        'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
@@ -417,10 +356,7 @@ namespace PHPSTORM_META {
         'command.cache.table' => \Illuminate\Cache\Console\CacheTableCommand::class,
         'command.channel.make' => \Illuminate\Foundation\Console\ChannelMakeCommand::class,
         'command.clear-compiled' => \Illuminate\Foundation\Console\ClearCompiledCommand::class,
-<<<<<<< HEAD
         'command.component.make' => \Illuminate\Foundation\Console\ComponentMakeCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.config.cache' => \Illuminate\Foundation\Console\ConfigCacheCommand::class,
         'command.config.clear' => \Illuminate\Foundation\Console\ConfigClearCommand::class,
         'command.console.make' => \Illuminate\Foundation\Console\ConsoleMakeCommand::class,
@@ -462,10 +398,6 @@ namespace PHPSTORM_META {
         'command.optimize.clear' => \Illuminate\Foundation\Console\OptimizeClearCommand::class,
         'command.package.discover' => \Illuminate\Foundation\Console\PackageDiscoverCommand::class,
         'command.policy.make' => \Illuminate\Foundation\Console\PolicyMakeCommand::class,
-<<<<<<< HEAD
-=======
-        'command.preset' => \Illuminate\Foundation\Console\PresetCommand::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.provider.make' => \Illuminate\Foundation\Console\ProviderMakeCommand::class,
         'command.queue.failed' => \Illuminate\Queue\Console\ListFailedCommand::class,
         'command.queue.failed-table' => \Illuminate\Queue\Console\FailedTableCommand::class,
@@ -487,10 +419,7 @@ namespace PHPSTORM_META {
         'command.serve' => \Illuminate\Foundation\Console\ServeCommand::class,
         'command.session.table' => \Illuminate\Session\Console\SessionTableCommand::class,
         'command.storage.link' => \Illuminate\Foundation\Console\StorageLinkCommand::class,
-<<<<<<< HEAD
         'command.stub.publish' => \Illuminate\Foundation\Console\StubPublishCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.test.make' => \Illuminate\Foundation\Console\TestMakeCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
         'command.up' => \Illuminate\Foundation\Console\UpCommand::class,
@@ -513,10 +442,7 @@ namespace PHPSTORM_META {
         'hash' => \Illuminate\Hashing\HashManager::class,
         'hash.driver' => \Illuminate\Hashing\BcryptHasher::class,
         'log' => \Illuminate\Log\LogManager::class,
-<<<<<<< HEAD
         'mail.manager' => \Illuminate\Mail\MailManager::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'mailer' => \Illuminate\Mail\Mailer::class,
         'memcached.connector' => \Illuminate\Cache\MemcachedConnector::class,
         'migration.creator' => \Illuminate\Database\Migrations\MigrationCreator::class,
@@ -532,11 +458,6 @@ namespace PHPSTORM_META {
         'router' => \Illuminate\Routing\Router::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
-<<<<<<< HEAD
-=======
-        'swift.mailer' => \Swift_Mailer::class,
-        'swift.transport' => \Illuminate\Mail\TransportManager::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'translation.loader' => \Illuminate\Translation\FileLoader::class,
         'translator' => \Illuminate\Translation\Translator::class,
         'url' => \Illuminate\Routing\UrlGenerator::class,
@@ -547,10 +468,7 @@ namespace PHPSTORM_META {
     ]));
     override(\Illuminate\Contracts\Container\Container::makeWith(0), map([
         '' => '@',
-<<<<<<< HEAD
         'Asm89\Stack\CorsService' => \Asm89\Stack\CorsService::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'Facade\IgnitionContracts\SolutionProviderRepository' => \Facade\Ignition\SolutionProviders\SolutionProviderRepository::class,
         'Facade\Ignition\DumpRecorder\DumpRecorder' => \Facade\Ignition\DumpRecorder\DumpRecorder::class,
         'Facade\Ignition\ErrorPage\Renderer' => \Facade\Ignition\ErrorPage\Renderer::class,
@@ -575,10 +493,6 @@ namespace PHPSTORM_META {
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'Illuminate\Routing\Contracts\ControllerDispatcher' => \Illuminate\Routing\ControllerDispatcher::class,
         'Illuminate\Session\Middleware\StartSession' => \Illuminate\Session\Middleware\StartSession::class,
-<<<<<<< HEAD
-=======
-        'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
@@ -594,10 +508,7 @@ namespace PHPSTORM_META {
         'command.cache.table' => \Illuminate\Cache\Console\CacheTableCommand::class,
         'command.channel.make' => \Illuminate\Foundation\Console\ChannelMakeCommand::class,
         'command.clear-compiled' => \Illuminate\Foundation\Console\ClearCompiledCommand::class,
-<<<<<<< HEAD
         'command.component.make' => \Illuminate\Foundation\Console\ComponentMakeCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.config.cache' => \Illuminate\Foundation\Console\ConfigCacheCommand::class,
         'command.config.clear' => \Illuminate\Foundation\Console\ConfigClearCommand::class,
         'command.console.make' => \Illuminate\Foundation\Console\ConsoleMakeCommand::class,
@@ -639,10 +550,6 @@ namespace PHPSTORM_META {
         'command.optimize.clear' => \Illuminate\Foundation\Console\OptimizeClearCommand::class,
         'command.package.discover' => \Illuminate\Foundation\Console\PackageDiscoverCommand::class,
         'command.policy.make' => \Illuminate\Foundation\Console\PolicyMakeCommand::class,
-<<<<<<< HEAD
-=======
-        'command.preset' => \Illuminate\Foundation\Console\PresetCommand::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.provider.make' => \Illuminate\Foundation\Console\ProviderMakeCommand::class,
         'command.queue.failed' => \Illuminate\Queue\Console\ListFailedCommand::class,
         'command.queue.failed-table' => \Illuminate\Queue\Console\FailedTableCommand::class,
@@ -664,10 +571,7 @@ namespace PHPSTORM_META {
         'command.serve' => \Illuminate\Foundation\Console\ServeCommand::class,
         'command.session.table' => \Illuminate\Session\Console\SessionTableCommand::class,
         'command.storage.link' => \Illuminate\Foundation\Console\StorageLinkCommand::class,
-<<<<<<< HEAD
         'command.stub.publish' => \Illuminate\Foundation\Console\StubPublishCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.test.make' => \Illuminate\Foundation\Console\TestMakeCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
         'command.up' => \Illuminate\Foundation\Console\UpCommand::class,
@@ -690,10 +594,7 @@ namespace PHPSTORM_META {
         'hash' => \Illuminate\Hashing\HashManager::class,
         'hash.driver' => \Illuminate\Hashing\BcryptHasher::class,
         'log' => \Illuminate\Log\LogManager::class,
-<<<<<<< HEAD
         'mail.manager' => \Illuminate\Mail\MailManager::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'mailer' => \Illuminate\Mail\Mailer::class,
         'memcached.connector' => \Illuminate\Cache\MemcachedConnector::class,
         'migration.creator' => \Illuminate\Database\Migrations\MigrationCreator::class,
@@ -709,11 +610,6 @@ namespace PHPSTORM_META {
         'router' => \Illuminate\Routing\Router::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
-<<<<<<< HEAD
-=======
-        'swift.mailer' => \Swift_Mailer::class,
-        'swift.transport' => \Illuminate\Mail\TransportManager::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'translation.loader' => \Illuminate\Translation\FileLoader::class,
         'translator' => \Illuminate\Translation\Translator::class,
         'url' => \Illuminate\Routing\UrlGenerator::class,
@@ -724,10 +620,7 @@ namespace PHPSTORM_META {
     ]));
     override(\App::make(0), map([
         '' => '@',
-<<<<<<< HEAD
         'Asm89\Stack\CorsService' => \Asm89\Stack\CorsService::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'Facade\IgnitionContracts\SolutionProviderRepository' => \Facade\Ignition\SolutionProviders\SolutionProviderRepository::class,
         'Facade\Ignition\DumpRecorder\DumpRecorder' => \Facade\Ignition\DumpRecorder\DumpRecorder::class,
         'Facade\Ignition\ErrorPage\Renderer' => \Facade\Ignition\ErrorPage\Renderer::class,
@@ -752,10 +645,6 @@ namespace PHPSTORM_META {
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'Illuminate\Routing\Contracts\ControllerDispatcher' => \Illuminate\Routing\ControllerDispatcher::class,
         'Illuminate\Session\Middleware\StartSession' => \Illuminate\Session\Middleware\StartSession::class,
-<<<<<<< HEAD
-=======
-        'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
@@ -771,10 +660,7 @@ namespace PHPSTORM_META {
         'command.cache.table' => \Illuminate\Cache\Console\CacheTableCommand::class,
         'command.channel.make' => \Illuminate\Foundation\Console\ChannelMakeCommand::class,
         'command.clear-compiled' => \Illuminate\Foundation\Console\ClearCompiledCommand::class,
-<<<<<<< HEAD
         'command.component.make' => \Illuminate\Foundation\Console\ComponentMakeCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.config.cache' => \Illuminate\Foundation\Console\ConfigCacheCommand::class,
         'command.config.clear' => \Illuminate\Foundation\Console\ConfigClearCommand::class,
         'command.console.make' => \Illuminate\Foundation\Console\ConsoleMakeCommand::class,
@@ -816,10 +702,6 @@ namespace PHPSTORM_META {
         'command.optimize.clear' => \Illuminate\Foundation\Console\OptimizeClearCommand::class,
         'command.package.discover' => \Illuminate\Foundation\Console\PackageDiscoverCommand::class,
         'command.policy.make' => \Illuminate\Foundation\Console\PolicyMakeCommand::class,
-<<<<<<< HEAD
-=======
-        'command.preset' => \Illuminate\Foundation\Console\PresetCommand::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.provider.make' => \Illuminate\Foundation\Console\ProviderMakeCommand::class,
         'command.queue.failed' => \Illuminate\Queue\Console\ListFailedCommand::class,
         'command.queue.failed-table' => \Illuminate\Queue\Console\FailedTableCommand::class,
@@ -841,10 +723,7 @@ namespace PHPSTORM_META {
         'command.serve' => \Illuminate\Foundation\Console\ServeCommand::class,
         'command.session.table' => \Illuminate\Session\Console\SessionTableCommand::class,
         'command.storage.link' => \Illuminate\Foundation\Console\StorageLinkCommand::class,
-<<<<<<< HEAD
         'command.stub.publish' => \Illuminate\Foundation\Console\StubPublishCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.test.make' => \Illuminate\Foundation\Console\TestMakeCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
         'command.up' => \Illuminate\Foundation\Console\UpCommand::class,
@@ -867,10 +746,7 @@ namespace PHPSTORM_META {
         'hash' => \Illuminate\Hashing\HashManager::class,
         'hash.driver' => \Illuminate\Hashing\BcryptHasher::class,
         'log' => \Illuminate\Log\LogManager::class,
-<<<<<<< HEAD
         'mail.manager' => \Illuminate\Mail\MailManager::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'mailer' => \Illuminate\Mail\Mailer::class,
         'memcached.connector' => \Illuminate\Cache\MemcachedConnector::class,
         'migration.creator' => \Illuminate\Database\Migrations\MigrationCreator::class,
@@ -886,11 +762,6 @@ namespace PHPSTORM_META {
         'router' => \Illuminate\Routing\Router::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
-<<<<<<< HEAD
-=======
-        'swift.mailer' => \Swift_Mailer::class,
-        'swift.transport' => \Illuminate\Mail\TransportManager::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'translation.loader' => \Illuminate\Translation\FileLoader::class,
         'translator' => \Illuminate\Translation\Translator::class,
         'url' => \Illuminate\Routing\UrlGenerator::class,
@@ -901,10 +772,7 @@ namespace PHPSTORM_META {
     ]));
     override(\App::makeWith(0), map([
         '' => '@',
-<<<<<<< HEAD
         'Asm89\Stack\CorsService' => \Asm89\Stack\CorsService::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'Facade\IgnitionContracts\SolutionProviderRepository' => \Facade\Ignition\SolutionProviders\SolutionProviderRepository::class,
         'Facade\Ignition\DumpRecorder\DumpRecorder' => \Facade\Ignition\DumpRecorder\DumpRecorder::class,
         'Facade\Ignition\ErrorPage\Renderer' => \Facade\Ignition\ErrorPage\Renderer::class,
@@ -929,10 +797,6 @@ namespace PHPSTORM_META {
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'Illuminate\Routing\Contracts\ControllerDispatcher' => \Illuminate\Routing\ControllerDispatcher::class,
         'Illuminate\Session\Middleware\StartSession' => \Illuminate\Session\Middleware\StartSession::class,
-<<<<<<< HEAD
-=======
-        'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
@@ -948,10 +812,7 @@ namespace PHPSTORM_META {
         'command.cache.table' => \Illuminate\Cache\Console\CacheTableCommand::class,
         'command.channel.make' => \Illuminate\Foundation\Console\ChannelMakeCommand::class,
         'command.clear-compiled' => \Illuminate\Foundation\Console\ClearCompiledCommand::class,
-<<<<<<< HEAD
         'command.component.make' => \Illuminate\Foundation\Console\ComponentMakeCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.config.cache' => \Illuminate\Foundation\Console\ConfigCacheCommand::class,
         'command.config.clear' => \Illuminate\Foundation\Console\ConfigClearCommand::class,
         'command.console.make' => \Illuminate\Foundation\Console\ConsoleMakeCommand::class,
@@ -993,10 +854,6 @@ namespace PHPSTORM_META {
         'command.optimize.clear' => \Illuminate\Foundation\Console\OptimizeClearCommand::class,
         'command.package.discover' => \Illuminate\Foundation\Console\PackageDiscoverCommand::class,
         'command.policy.make' => \Illuminate\Foundation\Console\PolicyMakeCommand::class,
-<<<<<<< HEAD
-=======
-        'command.preset' => \Illuminate\Foundation\Console\PresetCommand::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.provider.make' => \Illuminate\Foundation\Console\ProviderMakeCommand::class,
         'command.queue.failed' => \Illuminate\Queue\Console\ListFailedCommand::class,
         'command.queue.failed-table' => \Illuminate\Queue\Console\FailedTableCommand::class,
@@ -1018,10 +875,7 @@ namespace PHPSTORM_META {
         'command.serve' => \Illuminate\Foundation\Console\ServeCommand::class,
         'command.session.table' => \Illuminate\Session\Console\SessionTableCommand::class,
         'command.storage.link' => \Illuminate\Foundation\Console\StorageLinkCommand::class,
-<<<<<<< HEAD
         'command.stub.publish' => \Illuminate\Foundation\Console\StubPublishCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.test.make' => \Illuminate\Foundation\Console\TestMakeCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
         'command.up' => \Illuminate\Foundation\Console\UpCommand::class,
@@ -1044,10 +898,7 @@ namespace PHPSTORM_META {
         'hash' => \Illuminate\Hashing\HashManager::class,
         'hash.driver' => \Illuminate\Hashing\BcryptHasher::class,
         'log' => \Illuminate\Log\LogManager::class,
-<<<<<<< HEAD
         'mail.manager' => \Illuminate\Mail\MailManager::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'mailer' => \Illuminate\Mail\Mailer::class,
         'memcached.connector' => \Illuminate\Cache\MemcachedConnector::class,
         'migration.creator' => \Illuminate\Database\Migrations\MigrationCreator::class,
@@ -1063,11 +914,6 @@ namespace PHPSTORM_META {
         'router' => \Illuminate\Routing\Router::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
-<<<<<<< HEAD
-=======
-        'swift.mailer' => \Swift_Mailer::class,
-        'swift.transport' => \Illuminate\Mail\TransportManager::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'translation.loader' => \Illuminate\Translation\FileLoader::class,
         'translator' => \Illuminate\Translation\Translator::class,
         'url' => \Illuminate\Routing\UrlGenerator::class,
@@ -1078,10 +924,7 @@ namespace PHPSTORM_META {
     ]));
     override(\app(0), map([
         '' => '@',
-<<<<<<< HEAD
         'Asm89\Stack\CorsService' => \Asm89\Stack\CorsService::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'Facade\IgnitionContracts\SolutionProviderRepository' => \Facade\Ignition\SolutionProviders\SolutionProviderRepository::class,
         'Facade\Ignition\DumpRecorder\DumpRecorder' => \Facade\Ignition\DumpRecorder\DumpRecorder::class,
         'Facade\Ignition\ErrorPage\Renderer' => \Facade\Ignition\ErrorPage\Renderer::class,
@@ -1106,10 +949,6 @@ namespace PHPSTORM_META {
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'Illuminate\Routing\Contracts\ControllerDispatcher' => \Illuminate\Routing\ControllerDispatcher::class,
         'Illuminate\Session\Middleware\StartSession' => \Illuminate\Session\Middleware\StartSession::class,
-<<<<<<< HEAD
-=======
-        'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
@@ -1125,10 +964,7 @@ namespace PHPSTORM_META {
         'command.cache.table' => \Illuminate\Cache\Console\CacheTableCommand::class,
         'command.channel.make' => \Illuminate\Foundation\Console\ChannelMakeCommand::class,
         'command.clear-compiled' => \Illuminate\Foundation\Console\ClearCompiledCommand::class,
-<<<<<<< HEAD
         'command.component.make' => \Illuminate\Foundation\Console\ComponentMakeCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.config.cache' => \Illuminate\Foundation\Console\ConfigCacheCommand::class,
         'command.config.clear' => \Illuminate\Foundation\Console\ConfigClearCommand::class,
         'command.console.make' => \Illuminate\Foundation\Console\ConsoleMakeCommand::class,
@@ -1170,10 +1006,6 @@ namespace PHPSTORM_META {
         'command.optimize.clear' => \Illuminate\Foundation\Console\OptimizeClearCommand::class,
         'command.package.discover' => \Illuminate\Foundation\Console\PackageDiscoverCommand::class,
         'command.policy.make' => \Illuminate\Foundation\Console\PolicyMakeCommand::class,
-<<<<<<< HEAD
-=======
-        'command.preset' => \Illuminate\Foundation\Console\PresetCommand::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.provider.make' => \Illuminate\Foundation\Console\ProviderMakeCommand::class,
         'command.queue.failed' => \Illuminate\Queue\Console\ListFailedCommand::class,
         'command.queue.failed-table' => \Illuminate\Queue\Console\FailedTableCommand::class,
@@ -1195,10 +1027,7 @@ namespace PHPSTORM_META {
         'command.serve' => \Illuminate\Foundation\Console\ServeCommand::class,
         'command.session.table' => \Illuminate\Session\Console\SessionTableCommand::class,
         'command.storage.link' => \Illuminate\Foundation\Console\StorageLinkCommand::class,
-<<<<<<< HEAD
         'command.stub.publish' => \Illuminate\Foundation\Console\StubPublishCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.test.make' => \Illuminate\Foundation\Console\TestMakeCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
         'command.up' => \Illuminate\Foundation\Console\UpCommand::class,
@@ -1221,10 +1050,7 @@ namespace PHPSTORM_META {
         'hash' => \Illuminate\Hashing\HashManager::class,
         'hash.driver' => \Illuminate\Hashing\BcryptHasher::class,
         'log' => \Illuminate\Log\LogManager::class,
-<<<<<<< HEAD
         'mail.manager' => \Illuminate\Mail\MailManager::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'mailer' => \Illuminate\Mail\Mailer::class,
         'memcached.connector' => \Illuminate\Cache\MemcachedConnector::class,
         'migration.creator' => \Illuminate\Database\Migrations\MigrationCreator::class,
@@ -1240,11 +1066,6 @@ namespace PHPSTORM_META {
         'router' => \Illuminate\Routing\Router::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
-<<<<<<< HEAD
-=======
-        'swift.mailer' => \Swift_Mailer::class,
-        'swift.transport' => \Illuminate\Mail\TransportManager::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'translation.loader' => \Illuminate\Translation\FileLoader::class,
         'translator' => \Illuminate\Translation\Translator::class,
         'url' => \Illuminate\Routing\UrlGenerator::class,
@@ -1255,10 +1076,7 @@ namespace PHPSTORM_META {
     ]));
     override(\resolve(0), map([
         '' => '@',
-<<<<<<< HEAD
         'Asm89\Stack\CorsService' => \Asm89\Stack\CorsService::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'Facade\IgnitionContracts\SolutionProviderRepository' => \Facade\Ignition\SolutionProviders\SolutionProviderRepository::class,
         'Facade\Ignition\DumpRecorder\DumpRecorder' => \Facade\Ignition\DumpRecorder\DumpRecorder::class,
         'Facade\Ignition\ErrorPage\Renderer' => \Facade\Ignition\ErrorPage\Renderer::class,
@@ -1283,10 +1101,6 @@ namespace PHPSTORM_META {
         'Illuminate\Notifications\ChannelManager' => \Illuminate\Notifications\ChannelManager::class,
         'Illuminate\Routing\Contracts\ControllerDispatcher' => \Illuminate\Routing\ControllerDispatcher::class,
         'Illuminate\Session\Middleware\StartSession' => \Illuminate\Session\Middleware\StartSession::class,
-<<<<<<< HEAD
-=======
-        'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
@@ -1302,10 +1116,7 @@ namespace PHPSTORM_META {
         'command.cache.table' => \Illuminate\Cache\Console\CacheTableCommand::class,
         'command.channel.make' => \Illuminate\Foundation\Console\ChannelMakeCommand::class,
         'command.clear-compiled' => \Illuminate\Foundation\Console\ClearCompiledCommand::class,
-<<<<<<< HEAD
         'command.component.make' => \Illuminate\Foundation\Console\ComponentMakeCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.config.cache' => \Illuminate\Foundation\Console\ConfigCacheCommand::class,
         'command.config.clear' => \Illuminate\Foundation\Console\ConfigClearCommand::class,
         'command.console.make' => \Illuminate\Foundation\Console\ConsoleMakeCommand::class,
@@ -1347,10 +1158,6 @@ namespace PHPSTORM_META {
         'command.optimize.clear' => \Illuminate\Foundation\Console\OptimizeClearCommand::class,
         'command.package.discover' => \Illuminate\Foundation\Console\PackageDiscoverCommand::class,
         'command.policy.make' => \Illuminate\Foundation\Console\PolicyMakeCommand::class,
-<<<<<<< HEAD
-=======
-        'command.preset' => \Illuminate\Foundation\Console\PresetCommand::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.provider.make' => \Illuminate\Foundation\Console\ProviderMakeCommand::class,
         'command.queue.failed' => \Illuminate\Queue\Console\ListFailedCommand::class,
         'command.queue.failed-table' => \Illuminate\Queue\Console\FailedTableCommand::class,
@@ -1372,10 +1179,7 @@ namespace PHPSTORM_META {
         'command.serve' => \Illuminate\Foundation\Console\ServeCommand::class,
         'command.session.table' => \Illuminate\Session\Console\SessionTableCommand::class,
         'command.storage.link' => \Illuminate\Foundation\Console\StorageLinkCommand::class,
-<<<<<<< HEAD
         'command.stub.publish' => \Illuminate\Foundation\Console\StubPublishCommand::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'command.test.make' => \Illuminate\Foundation\Console\TestMakeCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
         'command.up' => \Illuminate\Foundation\Console\UpCommand::class,
@@ -1398,10 +1202,7 @@ namespace PHPSTORM_META {
         'hash' => \Illuminate\Hashing\HashManager::class,
         'hash.driver' => \Illuminate\Hashing\BcryptHasher::class,
         'log' => \Illuminate\Log\LogManager::class,
-<<<<<<< HEAD
         'mail.manager' => \Illuminate\Mail\MailManager::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'mailer' => \Illuminate\Mail\Mailer::class,
         'memcached.connector' => \Illuminate\Cache\MemcachedConnector::class,
         'migration.creator' => \Illuminate\Database\Migrations\MigrationCreator::class,
@@ -1417,11 +1218,6 @@ namespace PHPSTORM_META {
         'router' => \Illuminate\Routing\Router::class,
         'session' => \Illuminate\Session\SessionManager::class,
         'session.store' => \Illuminate\Session\Store::class,
-<<<<<<< HEAD
-=======
-        'swift.mailer' => \Swift_Mailer::class,
-        'swift.transport' => \Illuminate\Mail\TransportManager::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'translation.loader' => \Illuminate\Translation\FileLoader::class,
         'translator' => \Illuminate\Translation\Translator::class,
         'url' => \Illuminate\Routing\UrlGenerator::class,

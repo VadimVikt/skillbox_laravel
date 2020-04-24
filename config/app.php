@@ -39,11 +39,7 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'debug' => (bool) env('APP_DEBUG', false),
-=======
-    'debug' => env('APP_DEBUG', false),
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
 
     /*
     |--------------------------------------------------------------------------
@@ -177,10 +173,6 @@ return [
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
-<<<<<<< HEAD
-=======
-        App\Providers\TelescopeServiceProvider::class,
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         App\Providers\RouteServiceProvider::class,
 
     ],
@@ -215,10 +207,7 @@ return [
         'File' => Illuminate\Support\Facades\File::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,
         'Hash' => Illuminate\Support\Facades\Hash::class,
-<<<<<<< HEAD
         'Http' => Illuminate\Support\Facades\Http::class,
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         'Lang' => Illuminate\Support\Facades\Lang::class,
         'Log' => Illuminate\Support\Facades\Log::class,
         'Mail' => Illuminate\Support\Facades\Mail::class,

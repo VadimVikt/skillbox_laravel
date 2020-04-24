@@ -61,16 +61,11 @@ return [
             'secret' => env('AWS_SECRET_ACCESS_KEY'),
             'region' => env('AWS_DEFAULT_REGION'),
             'bucket' => env('AWS_BUCKET'),
-<<<<<<< HEAD
             'endpoint' => env('AWS_URL'),
-=======
-            'url' => env('AWS_URL'),
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         ],
 
     ],
 
-<<<<<<< HEAD
     /*
     |--------------------------------------------------------------------------
     | Symbolic Links
@@ -86,6 +81,4 @@ return [
         public_path('storage') => storage_path('app/public'),
     ],
 
-=======
->>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
 ];
