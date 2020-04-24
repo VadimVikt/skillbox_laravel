@@ -18,7 +18,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'driver' => env('SESSION_DRIVER', 'file'),
+=======
+    'driver' => env('SESSION_DRIVER', 'cookie'),
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
 
     /*
     |--------------------------------------------------------------------------
@@ -166,7 +170,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'secure' => env('SESSION_SECURE_COOKIE'),
+=======
+    'secure' => env('SESSION_SECURE_COOKIE', false),
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
 
     /*
     |--------------------------------------------------------------------------
@@ -190,10 +198,18 @@ return [
     | take place, and can be used to mitigate CSRF attacks. By default, we
     | do not enable this as other CSRF protection services are in place.
     |
+<<<<<<< HEAD
     | Supported: "lax", "strict", "none", null
     |
     */
 
     'same_site' => 'lax',
+=======
+    | Supported: "lax", "strict", "none"
+    |
+    */
+
+    'same_site' => null,
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
 
 ];

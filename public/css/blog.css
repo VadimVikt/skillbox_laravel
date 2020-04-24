@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     .h-md-250 { height: 250px; }
 }
 
+<<<<<<< HEAD
 /*
  * Blog name and description
  */
@@ -87,6 +88,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+=======
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
 /* Pagination */
 .blog-pagination {
     margin-bottom: 4rem;
@@ -123,3 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 .blog-footer p:last-child {
     margin-bottom: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7

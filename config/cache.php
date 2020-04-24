@@ -39,7 +39,10 @@ return [
 
         'array' => [
             'driver' => 'array',
+<<<<<<< HEAD
             'serialize' => false,
+=======
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         ],
 
         'database' => [

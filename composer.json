@@ -8,6 +8,7 @@
     ],
     "license": "MIT",
     "require": {
+<<<<<<< HEAD
         "php": "^7.2.5",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
@@ -22,6 +23,22 @@
         "mockery/mockery": "^1.3.1",
         "nunomaduro/collision": "^4.1",
         "phpunit/phpunit": "^8.5"
+=======
+        "php": "^7.2",
+        "fideloper/proxy": "^4.0",
+        "laravel/framework": "^6.2",
+        "laravel/telescope": "^2.1",
+        "laravel/tinker": "^2.0",
+        "laravel/ui": "^1.1"
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.6",
+        "facade/ignition": "^1.4",
+        "fzaninotto/faker": "^1.4",
+        "mockery/mockery": "^1.0",
+        "nunomaduro/collision": "^3.0",
+        "phpunit/phpunit": "^8.0"
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
     },
     "config": {
         "optimize-autoloader": true,
@@ -40,7 +57,12 @@
         "classmap": [
             "database/seeds",
             "database/factories"
+<<<<<<< HEAD
         ]
+=======
+        ],
+        "files": ["app/helpers.php"]
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
     },
     "autoload-dev": {
         "psr-4": {

@@ -1,5 +1,6 @@
 # Release Notes
 
+<<<<<<< HEAD
 ## [Unreleased](https://github.com/laravel/laravel/compare/v7.3.0...master)
 
 
@@ -96,6 +97,9 @@
 ### Fixed
 - Consistent alphabetical order ([#5167](https://github.com/laravel/laravel/pull/5167))
 - Update redirectTo return type PHPDoc ([#5175](https://github.com/laravel/laravel/pull/5175))
+=======
+## [Unreleased](https://github.com/laravel/laravel/compare/v6.5.2...master)
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
 
 
 ## [v6.5.2 (2019-11-21)](https://github.com/laravel/laravel/compare/v6.4.0...v6.5.2)

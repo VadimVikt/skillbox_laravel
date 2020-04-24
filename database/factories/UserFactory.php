@@ -1,7 +1,10 @@
 <?php
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
 use App\User;
 use Faker\Generator as Faker;
 use Illuminate\Support\Str;

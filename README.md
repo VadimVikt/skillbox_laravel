@@ -60,7 +60,10 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - [Hyper Host](https://hyper.host)
 - [Appoly](https://www.appoly.co.uk)
 - [OP.GG](https://op.gg)
+<<<<<<< HEAD
 - [云软科技](http://www.yunruan.ltd/)
+=======
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
 
 ## Contributing
 

@@ -130,16 +130,26 @@ return [
             'url' => env('REDIS_URL'),
             'host' => env('REDIS_HOST', '127.0.0.1'),
             'password' => env('REDIS_PASSWORD', null),
+<<<<<<< HEAD
             'port' => env('REDIS_PORT', '6379'),
             'database' => env('REDIS_DB', '0'),
+=======
+            'port' => env('REDIS_PORT', 6379),
+            'database' => env('REDIS_DB', 0),
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         ],
 
         'cache' => [
             'url' => env('REDIS_URL'),
             'host' => env('REDIS_HOST', '127.0.0.1'),
             'password' => env('REDIS_PASSWORD', null),
+<<<<<<< HEAD
             'port' => env('REDIS_PORT', '6379'),
             'database' => env('REDIS_CACHE_DB', '1'),
+=======
+            'port' => env('REDIS_PORT', 6379),
+            'database' => env('REDIS_CACHE_DB', 1),
+>>>>>>> 7c26c8221be52f34ac67f145b6ec6ce7333f08d7
         ],
 
     ],
